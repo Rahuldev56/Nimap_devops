@@ -32,7 +32,7 @@ def save_users(users: List[dict]):
 
 @app.get("/")
 def read_root():
-    return {"message": "Hello from FastAPI ;}
+    return {"message": "Hello from FastAPI ;"}
 
 @app.get("/users")
 def get_users():
